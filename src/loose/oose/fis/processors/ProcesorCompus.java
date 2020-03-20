@@ -15,6 +15,8 @@ public class ProcesorCompus implements Procesor {
     public int proceseaza(ArrayList<Document> documente) {
         int res = 0;
 
+        System.out.println("Week 5 HW");
+
         for (Procesor procesor : procesoare) {
             res += procesor.proceseaza(documente);
         }
